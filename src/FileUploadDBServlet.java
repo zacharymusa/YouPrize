@@ -28,7 +28,7 @@ import net.coobird.thumbnailator.Thumbnails;
 @WebServlet("/uploadServlet")
 @MultipartConfig(maxFileSize = 16177215)    // upload file's size up to 16MB
 public class FileUploadDBServlet extends HttpServlet {
-     
+     //IMAD CHANGE
     // database connection settings
     private String dbURL = "jdbc:mysql://localhost:3306/YouPrize";
     private String dbUser = "root";
