@@ -1,3 +1,4 @@
+package com.youprize.ypweb.servlet;
 
  
 import java.awt.image.BufferedImage;
@@ -21,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.Part;
-import javax.websocket.Session;
+//import javax.websocket.Session;
 
 import net.coobird.thumbnailator.Thumbnails;
  
